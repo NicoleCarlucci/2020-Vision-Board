@@ -1,0 +1,66 @@
+/***** BASE STYLES *****/
+body{
+  background-color: #E8E8E8;
+}
+
+#vision-board{
+  width: 1200px;
+  height: 850px;
+  text-align: center;
+  overflow: auto;
+  background: url('../img/background.png');
+  margin: 50px 80px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/***** BLOCKS *****/
+.small-block, .large-block{
+  float: left;
+  width: 400px;
+  box-sizing: border-box;
+}
+
+.small-block{
+  height: 210px;
+  padding: 30px;
+}
+
+.large-block{
+  height: 430px;
+  padding: 80px 30px;
+}
+
+.right{
+  text-align: right;
+}
+
+.left{
+  text-align: left;
+}
+
+#vision-board-title{
+  font-size: 30px;
+  color: #FFFFFF;
+}
+
+#vision-board-title span{
+  font-family: 'Permanent Marker', cursive;
+}
+
+.box span{
+  font-size: 38px;
+  text-transform: capitalize;
+}
+
+.marker span{
+  border: 1px solid transparent;
+  background-color: #FFF44F;
+  padding: 3px 10px;
+}
+
+.style{
+  padding: 10px 0;
+  line-height: 22px;
+}
